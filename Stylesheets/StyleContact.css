@@ -1,0 +1,184 @@
+@keyframes r-lf{
+    0% {right: -40%;}
+    50% {right: 5%;}
+    100% {right: 0; }
+}
+
+@keyframes l-rf{
+    0% {opacity: 0;}
+    50% {left:-10%; opacity: 0;}
+    75% {left:12%; opacity: .5;}
+    100% {left: 10%;}
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+    width: 100%;
+    animation-duration: 2s;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+.cu{
+    text-align: center;
+}
+
+.cu_d{
+    margin-left: 13%;
+    margin-right: 3%;
+}
+
+.s_im{
+    width: 100%;
+}
+
+.bell{
+    position: absolute;
+    width: 100%;
+    animation-name: r-lf;
+    animation-duration: .5s;
+}
+
+.ctus{
+    position: absolute;
+    right: 14%;
+    top: 46%;
+    color: rgb(250, 250, 250);
+}
+
+.form{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%;
+    animation-name: l-rf;
+    animation-duration: 0.8s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.437); 
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 2%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.form label{
+    font-size: 80%;
+}
+#cmt{
+    width: 100%;
+    height: 200px;
+    display: block;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+      
+}
+
+input[type=submit]{
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #3b3b3b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover{
+    background-color: #737475ed;
+    color: rgb(14, 14, 14);
+    transition: 0.2s;
+  }
+
+  .fb{
+    text-decoration: none;
+    color: #bdbdbd;
+    position: absolute;
+    right: 39.6%;
+    top: 67%;
+    font-size: 200%;
+  }
+
+  .fb:hover{
+    color: #68b1dce9;
+  }
+
+  .insta{
+    text-decoration: none;
+    color: #bdbdbd;
+    position: absolute;
+    right: 34%;
+    top: 67%;
+    font-size: 200%;
+  }
+
+  .insta:hover{
+    color: #68b1dce9;
+  }
+
+  .tweet{
+    text-decoration: none;
+    color: #bdbdbd;
+    position: absolute;
+    right: 28%;
+    top: 67%;
+    font-size: 200%;
+  }
+
+  .tweet:hover{
+    color: #68b1dce9;
+  }
+
+  .cont{
+    position: absolute;
+    right: 15%;
+    top: 93%;
+  }
+
+  .cont h4{
+    margin: 0%;
+  }
+
+  .cont p{
+    margin-top: 0;
+    margin-bottom: 5.5%;
+  }
+
+  .mails a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .mails a:hover{
+    color: #68b1dce9;
+  }
+
+  .lines{
+    position: absolute;
+    top: 91.5%;
+    right: 8%;
+    width: 550px;
+    opacity: .6;
+  }
+
+  .lines hr{
+    margin-top: 13%;
+  }
+
+  footer{
+    top: 155% ;
+}
+
+  

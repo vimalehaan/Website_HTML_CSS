@@ -1,0 +1,82 @@
+@keyframes panning{
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.95, 0.95);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+    width: 100%;
+    animation-duration: 0.7s;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+.para{
+    width: 40%;
+    position: absolute;
+    left: 13%;
+    top: 13%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rm{
+    width: 30%;
+    position: absolute;
+    left: 56%;
+    top: 24.5%;
+    animation-name: panning;
+    animation-duration: 0.6s;  
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.203);  
+}
+
+.para2{
+    width: 40%;
+    position: absolute;
+    right: 14%;
+    top: 65%;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+
+.food{
+    width: 30%;
+    position: absolute;
+    /* margin-left: 50%; */
+    left: 13%;
+    top: 75%;
+    animation-name: panning;
+    animation-duration: 0.6s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.203); 
+}
+
+.para3{
+    width: 40%;
+    position: absolute;
+    left: 13%;
+    top: 113%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hut{
+    width: 30%;
+    position: absolute;
+    /* margin-left: 50%; */
+    left: 56%;
+    top: 123%;
+    animation-name: panning;
+    animation-duration: 0.6s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.203); 
+}
+
+footer{
+    top: 180% ;
+}

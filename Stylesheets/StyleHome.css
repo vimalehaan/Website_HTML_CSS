@@ -1,0 +1,107 @@
+
+@keyframes panning{
+      0% {
+        transform: scale(1.1, 1.1);
+      }
+      50% {
+        transform: scale(0.9, 0.9);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+}
+@keyframes panning2{
+    0% {
+      transform: scale(0.8, 0.8);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+  width: 100%;
+  animation-duration: 2s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main {
+  padding: 20px;
+}
+
+h1.intro{
+  margin: 0;
+  margin-top: 10%;
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-weight: bolder;
+  color: #d3d3d3ee;
+  text-shadow: 1px 5px 8px black;
+  animation-name: panning2;
+  animation-duration: 1s;
+  /* transition: transform 0.5s; */
+}
+
+p.det{
+  text-align: center;
+  padding: 0;
+  position: static;
+  top: 20 ;
+  font-size: large;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 5px 8px black;
+  animation-name: panning;
+  animation-duration: 1s;
+}
+
+div.box{
+  padding: 30px;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.material-symbols-outlined {
+  color: #68b1dce9;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 1000,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+ p.loc{
+  display: inline;
+  right: 0;   
+}
+
+.button{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 46.6%;
+  font-size: 18px;
+  color: #fff;
+  background-color: #65656583;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.455);
+  transition: 0.3s;
+}
+
+footer{
+  top: 100% ;
+}
